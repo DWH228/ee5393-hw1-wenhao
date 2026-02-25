@@ -1,0 +1,18 @@
+added:
+vector<double> A2(S.size(), 0.0);
+inside the accumulation loop:
+
+A[i] += I[i];
+A2[i] += (double)I[i] * (double)I[i];
+
+and after avg printing:
+
+cout << "var ";
+cout << "[";
+for (unsigned i = 0; i < A.size(); i++) {
+    double mean = A[i] / (double)trials;
+    double var  = A2[i] / (double)trials - mean * mean;
+    cout << var;
+    if (i < A.size() - 1) cout << ", ";
+}
+cout << "]" << endl;
