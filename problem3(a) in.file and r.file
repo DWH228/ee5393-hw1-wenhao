@@ -1,0 +1,24 @@
+problem3a.r
+
+bL 1 : aL 1 bL 1 : 0.001
+aL 1 Y 2 : aL 1 Yp 1 cL 1 : 1.0
+Yp 1 : Y 1 : 0.5
+cL 2 : cL 1 : 1.0
+cL 1 : L 1 : 0.5
+aL 1 : w 1 : 1.0
+L 1 : m 1 : 1.0
+m 1 X 1 : Z 1 : 1.0
+m 1 : w 1 : 0.1
+
+
+problem3a.in
+
+bL 1 : aL 1 bL 1 : 0.001
+aL 1 Y 2 : aL 1 Yp 1 cL 1 : 1.0
+Yp 1 : Y 1 : 0.5
+cL 2 : cL 1 : 1.0
+cL 1 : L 1 : 0.5
+aL 1 : w 1 : 1.0
+L 1 : m 1 : 1.0
+m 1 X 1 : Z 1 : 1.0
+m 1 : w 1 : 0.1
