@@ -1,0 +1,24 @@
+problem3b.in
+
+X 32 N
+L 0 N
+Y 1 N
+a 0 N
+b 1 N
+c 0 N
+Xp 0 N
+e 0 N
+w 0 N
+
+
+problem 3b.r
+
+b 1 : a 1 b 1 : 0.001
+a 1 X 2 : c 1 Xp 1 a 1 : 1.0
+c 2 : c 1 : 1.0
+a 1 : w 1 : 1.0
+Xp 1 : X 1 : 0.5
+c 1 : L 1 : 0.5
+L 1 : e 1 : 0.5
+e 1 Y 1 : e 1 Y 2 : 0.02
+e 1 : w 1 : 2.0
